@@ -1,0 +1,11 @@
+POST http://127.0.0.1:5000/predict_pr_score
+content-type: application/json
+
+{
+  "LOC": 300,
+  "Commits": 4,
+  "Reviews": 3,
+  "Approvals": 1,
+  "Merged": 2,
+  "Resolved_Issues": 5
+}
